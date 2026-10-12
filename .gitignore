@@ -1,0 +1,23 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Base de datos local de MLflow
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+
+# Experimentos y artefactos locales
+mlruns/
+mlartifacts/
+
+# Archivos temporales
+*.log
+
+# Configuraciones locales
+.env
